@@ -1,1 +1,3 @@
-Source code for andyballingall.com
+# haylingsailor.github.io-hugo
+
+Hugo Source for my personal website
