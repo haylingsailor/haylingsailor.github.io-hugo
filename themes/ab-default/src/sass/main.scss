@@ -1,0 +1,29 @@
+// Bootstrap overrides:
+
+$enable-flex: true;
+$font-family-sans-serif:  'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+@import 'bootstrap_custom';
+@import 'variables';
+@import 'side_nav';
+@import 'footer';
+
+body {
+  padding-top: 70px;
+}
+
+.page-wrapper {
+  margin-left: 240px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.content-wrapper {
+  max-width: 700px;
+
+  img {
+    .img-fluid {
+      max-width: 100%;
+    }
+  }
+}
